@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+background-image: url(../images/bg.jpg);
+}
+
+main {
+  min-height: 100vh;
+  background-image: url(../images/bg.jpg);
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+}
+
+.glass{
+  position: relative;
+  min-height: 775px;
+  width: 1550px;
+  border-radius: 50px;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+  backdrop-filter: blur(2rem);
+  overflow: hidden;
+}
+
+/* SIDE-NAV */
+
+.side-nav{
+  position: absolute;
+  left: 0;
+  height: 100%;
+  min-height: 80vh;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-right: 1px solid white;
+}
+
+.side-nav-icon{
+  width: 5.5rem;
+}
+
+.home, .xp, .skills, .projects, .edu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+
+}
+
+.home{
+  border-top-left-radius: 50px;
+  border-top: 1px solid white;
+}
+
+.edu{
+  border-bottom-left-radius: 50px;
+}
+
+.copyright{
+  font-family: 'Lora', serif;
+  position: absolute;
+  bottom: 20px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+}
