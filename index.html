@@ -3,9 +3,13 @@
 
 <head>
   <meta charset="utf-8">
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
   <title></title>
 </head>
 
@@ -15,34 +19,66 @@
 
     <div class="glass">
 
+      <img class="icon-white" src="images/home-white.svg" alt="home-white">
+
       <div class="side-nav">
 
-        <div class="home hover">
+        <div class="btn home active">
           <a href="index.html"> <img class="side-nav-icon" src="images/home.svg" alt="home"></a>
         </div>
 
-        <div class="xp hover"></a>
-          <a href="#"> <img class="side-nav-icon" src="images/xp.svg" alt="xp"></a>
+        <div class="btn xp"></a>
+          <a href="xp.html"> <img class="side-nav-icon" src="images/xp.svg" alt="xp"></a>
         </div>
 
-        <div class="skills hover">
-          <a href="#"> <img class="side-nav-icon" src="images/skills.svg" alt="skills"></a>
+        <div class="btn skills">
+          <a href="skills.html"> <img class="side-nav-icon" src="images/skills.svg" alt="skills"></a>
         </div>
 
-        <div class="projects hover">
-          <a href="#"> <img class="side-nav-icon" src="images/projects.svg" alt="projects"> </a>
+        <div class="btn projects">
+          <a href="projects.html"> <img class="side-nav-icon" src="images/projects.svg" alt="projects"> </a>
         </div>
 
-        <div class="edu hover">
-          <a href="#"> <img class="side-nav-icon" src="images/edu.svg" alt="edu"> </a>
+        <div class="btn edu">
+          <a href="edu.html"> <img class="side-nav-icon" src="images/edu.svg" alt="edu"> </a>
         </div>
 
+      </div>
+
+      <div class="screen-home">
+
+        <h1>Dario Hunjadi</h1>
+        <p>Strong operations professional with a Master of Business Administration - MBA focused in Business, Management, Marketing, and Related Support Services from Karlovac University of Applied Sciences. </p>
+        <a href="https://www.linkedin.com/in/dario-hunjadi/"> <i class="social-networks fab fa-linkedin fa-5x"></i></a>
+        <a href="https://www.instagram.com/hunjavela"> <i class="social-networks fab fa-instagram fa-5x"></i></a>
+        <a href="https://github.com/dhunjadi"> <i class="social-networks fab fa-github fa-5x"></i></a>
+        <i class="mail-icon fas fa-envelope fa-5x"></i>
       </div>
 
     </div>
 
 
-    <h5></h5>  <a class="copyright" href="https://www.linkedin.com/in/dario-hunjadi/"><h5>© 2021 Dario Hunjadi</h5></a>
+        <div class="modal">
+          <h1>Contact</h1>
+          <label for="name">Name: </label>
+          <input type="text">
+          <label for="email">E-mail: </label>
+          <input type="text">
+          <label for="name">Message:  </label>
+          <textarea name="name" rows="8" cols="80"></textarea>
+
+          <div class="send-btn">
+            Send
+          </div>
+          <span class="x-btn">X</span>
+        </div>
+      <div class="modal-overlay">
+
+      </div>
+
+    <a class="copyright" href="https://www.linkedin.com/in/dario-hunjadi/">
+      <h5>© 2021 Dario Hunjadi</h5>
+    </a>
   </main>
 
   <script src="script.js" charset="utf-8"></script>
