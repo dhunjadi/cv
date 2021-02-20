@@ -34,6 +34,17 @@ p{
   padding-bottom: 30px;
 }
 
+textarea {
+  height: 200px;
+  width: 600px;
+  margin: 5px 5px;
+}
+
+textarea, label, input{
+  resize: none;
+  border-radius: 5px;
+}
+
 .glass{
   position: relative;
   overflow: hidden;
@@ -41,6 +52,7 @@ p{
   width: 1550px;
   border-radius: 50px;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+  -moz-backdrop-filter: blur;
   backdrop-filter: blur(2rem);
 }
 
@@ -57,10 +69,12 @@ p{
   align-items: center;
   justify-content: space-evenly;
   border-right: 1px solid white;
+  z-index: 94;
 }
 
 .side-nav-icon{
   width: 5.5rem;
+  z-index: 95;
 }
 
 .btn {
