@@ -40,11 +40,11 @@ const leftArrow = document.querySelector('.left-arrow');
 const rightArrow = document.querySelector('.right-arrow');
 
 let counter = 0;
-const size = 1500;
+const size = 1285;
 
 
 rightArrow.addEventListener('click', () => {
-  if(counter <= 5){
+  if(counter <= 6){
   carouselWrapper.style.transition = "transform 0.5s ease-in-out";
   counter++;
   carouselWrapper.style.transform = 'translateX(' + (-size * counter) + 'px)';
